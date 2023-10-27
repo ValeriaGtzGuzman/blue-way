@@ -1,2 +1,2 @@
 # blue-way
-Sitio Web acerca el cuidado del medio ambiente
+Sitio web acerca el cuidado del medio ambiente
