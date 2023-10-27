@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap');
+*{
+	font-family: 'Poppins';
+
+}
+body{
+	margin: 20px;
+	margin: 0 auto;
+	max-width: 1800px;
+}
+a{
+	text-decoration: none;
+	color: #2EACCA;
+}
+header {
+	display: flex;
+	height: 150px;
+	justify-content: space-between;
+	background: #E9FAFE;
+	align-items: center;
+	padding: 10px;
+	margin: 20px;
+	margin: 0 auto;
+	max-width: 1800px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+.logo img {
+	height: 150px;
+	margin-right: 20px;
+}
+nav a{
+	font-weight: 600;
+	padding-right: 30px;
+}
+nav a:hover{
+	color: #0F7991;
+}
+
+/*BODY*/
+img{
+	max-width: 100%;
+}
+p{
+	margin: 40px;
+	color: black;
+	line-height: 1.5;
+}
+ul{
+  color: black;
+  margin: 50px;
+  line-height: 1.5;
+}
+
+#Sobre-nosotros{
+	color: #185E72;
+	margin: 40px;
+	font-family: 'Bebas Neue';
+}
+video{
+	height: 300px;
+	width: 500px;
+}
+footer {
+  background-color: #E9FAFE;
+  color: #185E72;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+}
+#footer-img{
+	height: 50px;
+	width: 50px;
+}
+#nave{
+	color: #862A5A;
+}

@@ -1,0 +1,74 @@
+/*
+
+#DBFFD4
+*/
+
+*{
+    margin: 0;
+    font-family: 'Karla';
+
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#logo {
+    height: 250px;
+    width: 250px;
+}
+
+#spacer {
+    height: 10px;
+}
+
+#spacer-2 {
+    height: 20px;
+}
+.datos {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datos input[type="text"]{
+    width: 200px;
+    border-radius: 5px;
+    background-color: #F1FBFE;
+    border-color: #8EBDFA;
+    border-style: solid;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.datos input[type="password"]{
+    width: 200px;
+    border-radius: 5px;
+    background-color: #F1FBFE;
+    border-style: solid;
+    border-color: #8EBDFA;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#enviar {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border-color: white;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#enviar:hover {
+  background-color: #2980b9;
+}
+

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300&display=swap');
+*{
+	font-family: 'Poppins';
+}
+
+body{
+	margin: 0 auto;
+	max-width: 1800px;
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: #2EACCA;
+}
+header {
+	display: flex;
+	height: 150px;
+	justify-content: space-between;
+	background: #E9FAFE;
+	align-items: center;
+	padding: 10px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+}
+.logo img {
+	height: 150px;
+	margin-right: 20px;
+}
+nav a{
+	font-weight: 600;
+	padding-right: 30px;
+}
+nav a:hover{
+	color: #0F7991;
+}
+/* TERMINA HEADER */
+
+/* FORM */
+.contacto-color{
+	color: #185E72;
+	font-family: 'Bebas Neue';
+}
+.info-personal{
+	margin-left: 100px;
+}
+.bloque-color{
+	margin-right: 20px;
+	margin-left: 60px;
+}
+.primer-bloque{
+	margin-left: 70px;
+}
+.tema-type{
+	align-items: center;
+}
+.btn{
+	background-color: #F6FDFF;
+	color: #0B566B;
+	border: 1px solid #0B566B;
+	width: 100px;
+	height: 25px;
+	border-radius: 4px;
+}
+.btn:hover{
+	background-color: white;
+	cursor: pointer;
+}
+.txt-area{
+	border-color: green;
+	border-radius: 10px;
+	padding: 10px;
+}
+#mensaje{
+	border-color: #0B566B;
+}
+select{
+	padding: 3px;
+}
+input, select, textarea {
+  font-size: 100%;
+  font-family: inherit;
+}
+input{
+  background-color: white; 
+  width: 200px; 
+  height: 20px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #167A90; 
+  margin-top: 10px;   
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+.contact_form{
+  width: 500px; 
+  height: auto;
+  margin: auto; /*centra horizontalmente*/
+  border-radius: 10px;  
+  padding-top: 20px;
+  padding-bottom: 20px;  
+  background-color: #F5FBFC; 
+  padding-left: 15px; 
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/* FOOTER */
+footer {
+  background-color: #E9FAFE;
+  color: #185E72;
+  padding: 20px;
+  text-align: center;
+}
